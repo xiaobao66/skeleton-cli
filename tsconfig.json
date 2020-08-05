@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "lib",
+        "target": "ES5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
