@@ -1,8 +1,8 @@
 {
   "name": "skeleton-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "cli for front-end template",
+  "main": "lib/index.js",
   "scripts": {
     "lint": "eslint --ext .js,.ts src",
     "lint:fix": "npm run lint -- --fix",
@@ -12,6 +12,10 @@
   "license": "ISC",
   "bin": {
     "skeleton-cli": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaobao66/skeleton-cli.git"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
