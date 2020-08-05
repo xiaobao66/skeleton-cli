@@ -1,5 +1,5 @@
 {
-  "name": "skeleton-cli",
+  "name": "@xiaobaowei/skeleton-cli",
   "version": "1.0.0",
   "description": "cli for front-end template",
   "main": "lib/index.js",
