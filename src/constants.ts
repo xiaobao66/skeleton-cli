@@ -7,10 +7,12 @@ const TEMPLATE_TYPES: {
   REACT: string;
   REACT_TS: string;
   VANILLAJS_TS: string;
+  TOOL_TS: string;
 } = {
   REACT: 'REACT',
   REACT_TS: 'REACT_TS',
   VANILLAJS_TS: 'VANILLAJS_TS',
+  TOOL_TS: 'TOOL_TS',
 };
 
 const TEMPLATE_URLS = {
@@ -19,6 +21,7 @@ const TEMPLATE_URLS = {
     'https://github.com/xiaobao66/react-skeleton-ts.git',
   [TEMPLATE_TYPES.VANILLAJS_TS]:
     'https://github.com/xiaobao66/vanillajs-skeleton-ts.git',
+  [TEMPLATE_TYPES.TOOL_TS]: 'https://github.com/xiaobao66/tool-skeleton-ts.git',
 };
 
 export { ACTION_TYPES, TEMPLATE_TYPES, TEMPLATE_URLS };
