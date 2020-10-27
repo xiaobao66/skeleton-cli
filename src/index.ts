@@ -74,8 +74,8 @@ class Creator {
           2,
         ),
       );
-      // 修改package-lock.json
-      filePath = path.join(process.cwd(), `${project}/package-lock.json`);
+      // 修改npm-shrinkwrap.json
+      filePath = path.join(process.cwd(), `${project}/npm-shrinkwrap.json`);
       content = JSON.parse(await readFile(filePath));
       await writeFile(
         filePath,
